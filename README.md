@@ -37,37 +37,38 @@
 
  - Создаю в VisualCode:
 
-![Снимок экрана (214)](https://github.com/AleksandrShirobokov/12.02-DDL-DML-/assets/69298696/b7b3b5ae-c7a7-4f77-accf-cd13bbc70385)
+![Снимок экрана (216)](https://github.com/AleksandrShirobokov/12.02-DDL-DML-/assets/69298696/ce90e4dd-4483-43c6-a712-e0c89d5fc55f)
 
  - Текстовый вариант:
 ```
-+----------------------------+-----------------------+
-| Название таблицы           | Название первичного ключа |
-+----------------------------+-----------------------+
-| actor                      | actor_id              |
-| actor_info                 | actor_id              |
-| address                    | address_id            |
-| category                   | category_id           |
-| city                       | city_id               |
-| country                    | country_id            |
-| customer                   | customer_id           |
-| customer_list              | -                     |
-| film                       | film_id               |
-| film_actor                 | -                     |
-| film_category              | -                     |
-| film_list                  | -                     |
-| film_text                  | -                     |
-| inventory                  | inventory_id          |
-| language                   | language_id           |
-| nicer_but_slower_film_list | -                     |
-| payment                    | payment_id            |
-| rental                     | rental_id             |
-| sales_by_film_category     | -                     |
-| sales_by_store             | -                     |
-| staff                      | staff_id              |
-| staff_list                 | -                     |
-| store                      | store_id              |
-+----------------------------+-----------------------+
++----------------------------+---------------------------+
+| Название таблицы           | Название первичного ключа  |
++----------------------------+---------------------------+
+| actor                      | actor_id                  |
+| actor_info                 | actor_id                  |
+| address                    | address_id                |
+| category                   | category_id               |
+| city                       | city_id                   |
+| country                    | country_id                |
+| customer                   | customer_id               |
+| customer_list              | -                         |
+| film                       | film_id                   |
+| film_actor                 | (actor_id, film_id)       |
+| film_category              | (film_id, category_id)    |
+| film_list                  | -                         |
+| film_text                  | film_id                   |
+| inventory                  | inventory_id              |
+| language                   | language_id               |
+| nicer_but_slower_film_list | -                         |
+| payment                    | payment_id                |
+| rental                     | (rental_id, inventory_id) |
+| sales_by_film_category     | (category, total_sales)   |
+| sales_by_store             | (store, total_sales)      |
+| staff                      | staff_id                  |
+| staff_list                 | -                         |
+| store                      | store_id                  |
++----------------------------+---------------------------+
+
 ```
 
 
