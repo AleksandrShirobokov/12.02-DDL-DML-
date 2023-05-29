@@ -40,7 +40,7 @@
 
  - Создаю в VisualCode:
 
-![Снимок экрана (216)](https://github.com/AleksandrShirobokov/12.02-DDL-DML-/assets/69298696/ce90e4dd-4483-43c6-a712-e0c89d5fc55f)
+![Снимок экрана (219)](https://github.com/AleksandrShirobokov/12.02-DDL-DML-/assets/69298696/0fde1005-adc8-44e0-8475-b5d2c0c8d4ce)
 
  - Текстовый вариант:
 ```
