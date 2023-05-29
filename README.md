@@ -45,7 +45,7 @@
  - Текстовый вариант:
 ```
 +----------------------------+---------------------------+
-| Название таблицы           | Название первичного ключа  |
+| Название таблицы           | Название первичного ключа |
 +----------------------------+---------------------------+
 | actor                      | actor_id                  |
 | actor_info                 | actor_id                  |
@@ -64,14 +64,13 @@
 | language                   | language_id               |
 | nicer_but_slower_film_list | -                         |
 | payment                    | payment_id                |
-| rental                     | (rental_id, inventory_id) |
-| sales_by_film_category     | (category, total_sales)   |
-| sales_by_store             | (store, total_sales)      |
+| rental                     | rental_id                 |
+| sales_by_film_category     | category                  |
+| sales_by_store             | store                     |
 | staff                      | staff_id                  |
 | staff_list                 | -                         |
 | store                      | store_id                  |
 +----------------------------+---------------------------+
-
 ```
 
 
